@@ -70,7 +70,7 @@ void MkFile(FILE *file){
     loading();
 
     for (int i = 0; i < 10000; i++){
-        fprintf(file, "%d \n", rand() % 100);
+        fprintf(file, "%d \n", rand() % 1001);
     }
 
     fclose(file);
